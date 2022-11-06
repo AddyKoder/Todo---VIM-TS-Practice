@@ -1,0 +1,21 @@
+@use 'sass:map';
+@use 'sass:math';
+
+// Variables
+$color-bg: black;
+$color-text: white;
+$color-em: cyan;
+$button-size:(
+	small: 2em,
+	medium: 4em,
+	big: 6em
+);
+
+//Typography
+body{
+	font-family: 'Segoe UI';
+}
+
+button:hover{
+	cursor: pointer;
+}

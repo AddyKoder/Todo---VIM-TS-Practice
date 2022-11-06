@@ -3,7 +3,7 @@ export default function InputField({value, onChange, onCreate}:{value:string, on
 	return (
 	<div className="add-todo-form">
 
-		<input type="text" value={value} onChange={(e) => onChange(e.target.value)} onKeyDown={(e) => {
+		<input placeholder="Your Todo" type="text" value={value} onChange={(e) => onChange(e.target.value)} onKeyDown={(e) => {
 			if (e.key === "Enter") {
 				onCreate()
 			}	
